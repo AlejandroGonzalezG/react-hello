@@ -1,12 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import PropType from "prop-types";
 
-
-const mySuperStyles = {
-	fontSize: "16px",
-
-};
 
 const NavBar = () => {
 	return (
@@ -28,7 +21,6 @@ const NavBar = () => {
         </nav>
 	);
 };
-
 
 
 export default NavBar;
