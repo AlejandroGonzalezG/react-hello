@@ -10,6 +10,7 @@ const estiloBoton = {
 	padding: "10px",
     marginTop: "20px",
     marginBottom: "80px",
+	textAlign: "start",
 
 };
 
