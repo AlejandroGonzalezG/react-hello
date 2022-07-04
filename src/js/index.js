@@ -6,8 +6,10 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
-
+import NavBar from "./component/NavBar.jsx"
+import Jumbotron from "./component/Jumbotron.jsx"
+import Cards from "./component/Cards.jsx"
+import Footer from "./component/Footer.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
