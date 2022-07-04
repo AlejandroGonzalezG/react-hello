@@ -1,26 +1,64 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import cardImage from "../../img/500x325.png";
 
 //create your first component
-const Home = () => {
+const Cards = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+		<div className="container">
+			<div className="row g-2 row-cols-1 row-cols-md-4 h-100">
+				<div className="col">
+					<div className="card">
+						<img className="card-img-top" src={cardImage} alt="Card image cap"/>
+						<div className="card-body">
+						<h5 className="card-title text-center">Card title</h5>
+						<p className="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						</div>
+						<div className="card-footer bg-light">
+						<small className="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+				</div>
+				<div className="col">
+					<div className="card">
+						<img className="card-img-top" src={cardImage} alt="Card image cap"/>
+						<div className="card-body">
+						<h5 className="card-title">Card title</h5>
+						<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						</div>
+						<div className="card-footer bg-light">
+						<small className="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+				</div>
+				<div className="col">
+					<div className="card">
+						<img className="card-img-top" src={cardImage} alt="Card image cap"/>
+						<div className="card-body">
+						<h5 className="card-title">Card title</h5>
+						<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						</div>
+						<div className="card-footer bg-light">
+						<small className="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+				</div>
+				<div className="col">
+					<div className="card">
+						<img className="card-img-top" src={cardImage} alt="Card image cap"/>
+						<div className="card-body">
+						<h5 className="card-title">Card title</h5>
+						<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						</div>
+						<div className="card-footer bg-light">
+						<small className="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };
 
-export default Home;
+export default Cards;
