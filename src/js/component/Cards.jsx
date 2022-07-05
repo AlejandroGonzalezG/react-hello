@@ -7,8 +7,8 @@ import cardImage from "../../img/500x325.png";
 
 const Cards = (props) => {
 	return (
-		<div className="container">
-			<div className="row g-2 row-cols-1 row-cols-md-4 h-100">
+		<div className="container pb-3">
+			<div className="row g-4 row-cols-1 row-cols-md-4 h-100">
 				<div className="col">
 					<div className="card">
 						<img className="card-img-top" src={cardImage} alt="Card image cap"/>
