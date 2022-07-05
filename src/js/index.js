@@ -10,7 +10,7 @@ import NavBar from "./component/NavBar.jsx"
 import Jumbotron from "./component/Jumbotron.jsx"
 import Cards from "./component/Cards.jsx"
 import Footer from "./component/Footer.jsx";
-import Home from "./component/Home.jsx"
+import Home from "./component/Home.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
