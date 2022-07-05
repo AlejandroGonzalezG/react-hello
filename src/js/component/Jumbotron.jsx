@@ -22,7 +22,7 @@ const Jumbotron = (props) => {
 		            <div className="jumbotron p-4 text-start" style={estiloJumbotron}>
 			            <h1 className="display-4 text-start">{props.title}</h1>
 			            <p className="lead text-start">{props.description}</p>
-			            <a className="btn btn-primary btn-lg" href={props.buttonURL} role="button" style={estiloBoton}>{props.buttonLabel}</a>
+			            <a className="btn btn-primary btn-lg " href={props.buttonURL} role="button" style={estiloBoton}>{props.buttonLabel}</a>
 		            </div>
                 </div>
             </div>
